@@ -18,7 +18,7 @@ a:hover {
 
 #header {
   padding: 1rem 0;
-  background: #f3f3f3;
+  border-bottom: 1px solid #e1e1e1;
 }
 #header .navbar * {
   font-size: 1.5rem;
@@ -59,7 +59,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70rem;
+  height: 83rem;
   border-bottom: 0.3rem solid #ffc252;
 }
 #banner .bannerContent {
@@ -67,6 +67,7 @@ a:hover {
 }
 #banner .bannerTitle {
   font-size: 6.6rem;
+  padding-top: 7rem;
   font-weight: 700;
   margin: 0;
 }
@@ -197,6 +198,9 @@ a:hover {
 
 #ArcheoArchive {
   padding: 8rem 0;
+}
+#ArcheoArchive .arrowTxt {
+  padding-right: 14rem;
 }
 
 #ArcheoBase {
@@ -336,5 +340,71 @@ a:hover {
     border: 1px solid transparent;
     border-radius: 0.25rem;
     transition: box-shadow 0.15s ease-in-out;
+  }
+  #ArcheoArchive .arrowTxt {
+    padding-right: 0;
+  }
+  #banner .deskTopDivider {
+    margin-top: 10rem;
+    border: none;
+  }
+  #ArcheoBase .threeMonthTrial .trialTitle {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  #ArcheoView .archoTextCtrl {
+    padding-left: 0;
+  }
+  #banner .deskTopDivider {
+    margin-top: 10rem;
+  }
+  #archoEntry {
+    margin-top: 32rem;
+  }
+  #ArcheoBase .threeMonthTrial .trialTitle {
+    font-size: 3.2rem;
+  }
+  .sectionTitle {
+    font-size: 3.6rem;
+  }
+  #ArcheoArchive .arrowTxt {
+    padding-right: 0;
+  }
+  #header .navbar .nav-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #header .navbar .dropdown::before {
+    content: "";
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  #banner {
+    height: 92rem;
+  }
+  #ArcheoView .archoTextCtrl {
+    padding-left: 0;
+  }
+  #banner .deskTopDivider {
+    margin-top: 14rem;
+  }
+  #archoEntry {
+    margin-top: 35rem;
+  }
+  #ArcheoBase .threeMonthTrial .trialTitle {
+    font-size: 3.2rem;
+  }
+  .sectionTitle {
+    font-size: 3.6rem;
+  }
+  #ArcheoArchive .arrowTxt {
+    padding-right: 0;
+    padding-left: 16rem;
+  }
+  #curveBGWithFooter .footerLinks .nav-item {
+    padding-right: 2rem;
   }
 }
